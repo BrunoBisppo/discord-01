@@ -1,0 +1,114 @@
+/* INICIO - Importando as variaveis do css */
+@import url(variavel.css);
+/* Importando as variaveis do css - FIM */
+
+
+/*
+
+<weight>: Use a value from 300 to 700
+font-family: "Space Grotesk", sans-serif;
+
+<weight>: Use a value from 100 to 900
+font-family: "Inter", sans-serif;
+
+*/
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: var(--dark-10);
+}
+
+header{
+    background-color: var(--dark-20);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 200px;
+    width: 100%;
+    color: white;
+}
+
+#title{
+    padding: 0px 0px 48px 0px;
+    font-size: 40px;
+    font-family: "Space Grotesk", sans-serif;
+}
+
+#title span{
+    color: var(--brand-color);
+}
+
+#bar-pesquisa{
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 45px;
+    padding: 8px;
+    background-color: var(--dark-30);
+    border-radius: 5px;
+}
+
+#bar-pesquisa img, a{
+    height: 19px;
+}
+
+#bar-pesquisa input{
+    width: 100%;
+    height: 100%;
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    color: var(--branco);
+    padding: 0 0 0 10px;
+}
+
+main{
+    width: 60%;
+    margin: 0 auto;
+}
+
+article{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    height: 100%;
+    margin-top: 30px;
+}
+
+article div{
+    margin-top: 10px;
+    background-color: var(--dark-20);
+    padding: 20px;
+    border-radius: 8px;
+    line-height: 25px;
+}
+
+article h3{
+    color: var(--brand-color);
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+article h2{
+    color: var(--branco);
+    margin-bottom: 20px;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 20px;
+}
+
+
+article p{
+    color: var(--cinza);
+    margin-bottom: 20px;
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+}
+
