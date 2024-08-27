@@ -137,6 +137,7 @@ footer{
     padding: 7px;
     color: var(--branco);
     font-family: "Space Grotesk", sans-serif;
+    border-radius: 7px;
 }
 
 footer span{
