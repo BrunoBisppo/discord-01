@@ -112,3 +112,48 @@ article p{
     font-size: 15px;
 }
 
+.like-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: var(--cinza); /* Cor padrão do coração */
+    font-size: 20px; /* Tamanho do ícone */
+    transition: color 0.3s ease; /* Transição suave para a mudança de cor */
+}
+
+.like-button:hover {
+    color: var(--brand-color); /* Cor do coração ao passar o mouse */
+}
+
+.like-button.liked {
+    color: var(--brand-color); /* Cor do coração quando curtido */
+}
+
+footer{
+    margin: 35px auto 0 auto;
+    background-color: var(--dark-20);
+    width: 60%;
+    text-align: center;
+    padding: 7px;
+    color: var(--branco);
+    font-family: "Space Grotesk", sans-serif;
+}
+
+footer span{
+    color: var(--brand-color);
+    font-family: "Space Grotesk", sans-serif;
+}
+
+footer a{
+    display: inline-block;
+    text-decoration: none;
+    color: var(--brand-color);
+    transition: 0.5s ease, transform 0.5s ease;
+}
+
+footer a:hover{
+    color: rgb(157, 157, 231);
+    transform: scale(1.04);
+}
+
+
